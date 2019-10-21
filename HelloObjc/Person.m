@@ -17,4 +17,12 @@
     _lastName = @"Ola";
 }
 
+- (void) speakName {
+    NSLog(@"My name is %@ %@", _firstName, _lastName);
+}
+
++ (void)stateSpecies {
+    NSLog(@"I'm a human");
+}
+
 @end
